@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+
+.header_logo img{
+    height: 20px;
+    margin-left: 20px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+}
+
+.header_input{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 40%;
+    color: gray;
+    border-radius: 20px;
+}
+
+.header_input input{
+    border: none;
+    flex: 1;
+}
+
+.header_icons{
+    margin-right: 8px;
+}
